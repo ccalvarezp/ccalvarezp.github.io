@@ -1,0 +1,159 @@
+/*font-family: 'Shadows Into Light', cursive;
+ font-family: 'Indie Flower', cursive;
+
+ font-family: 'Baloo Tamma', cursive;
+font-family: 'Modak', cursive;
+font-family: 'Raleway', sans-serif;
+*/
+
+#contenido{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;	
+
+}
+
+
+
+body{
+background-repeat: no-repeat;/*Para usar en computadores con resoluciones altas*/
+background-size: cover;
+color: #333;
+font-family: "FRABKUNAD",Arial;
+font-size: 13px;
+margin: 0;
+padding: 0;
+}
+
+h1{
+color: gray;
+margin-left: 10px;
+font-size: 18px;
+text-align: center; 
+}
+
+h2{
+font-family: Arial;
+color: white;
+margin-left: 10px;
+font-size: 12px;
+text-align: center; 
+}
+
+
+header{
+	width: 1000px;
+	height: 80px;
+}
+
+header figure img {
+    background: #FFF;
+    position: absolute;
+    text-align: left;
+    width: 445px;
+    height: 105px;
+}
+
+section article figure img {
+position: relative;
+width: 600px;
+}
+
+nav ul.menu{
+    font-family: Arial;
+    font-size: 13px;
+    background: #004669;
+    position: absolute;
+    top: 129px;
+    width: 100%;
+}
+
+ul{
+margin: auto;
+padding-top: 4px;
+}
+
+nav ul li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	background: #004669;
+	margin: 3px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px white inset; 
+
+}
+
+section{
+	width: 700px;
+	background: lightgray;
+	height: 600px;
+	float: left;
+	margin-top: 100px;
+	/*margin-left: 42px;*/
+	border-radius: 10px;
+}
+aside{
+
+	width: 270px;
+	background: gray;
+	height: 600px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 100px;
+	border-radius: 10px;
+}
+
+footer{
+width: 1000px;
+height: 50px;
+background: black;
+float: left;
+border-radius: 1px;
+
+text-align: center;
+ position:fixed;
+    bottom:0;
+
+}
+
+p{
+
+	font-weight: bolder;
+	line-height: 24px;
+	padding: 10px;
+	text-align: justify;
+}
+
+
+/*CLASES*/
+
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+
+.menu:link{color: white; text-decoration: none;}
+.menu:visited{color: white; text-decoration: none;}
+.menu:hover{color: white; text-decoration: none; text-shadow: 0 0 13px white;}
+.menu:active{color: white; text-decoration: none;}
+
+.wid_lado:link{color: purple; text-decoration: none;font-weight: bolder;}
+
+/*SEUDO CLASES*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
